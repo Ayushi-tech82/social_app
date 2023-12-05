@@ -1,0 +1,71 @@
+/* .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+.register-container {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  /* margin-top: 10%; */
+  background-color:white;
+  font-family: "Roboto", sans-serif;
+  /* line-height: 1.9; */
+border: 1px solid black; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+.form-container {
+  width: 50%;
+  height: 82%;
+  margin-bottom: 0px;
+  padding: 40px;
+   border:1px solid;
+  border-style: double;
+  border-color: #ec89a0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.input {
+  margin: margin-input;
+  padding: padding-input;
+  width: width-input;
+  height: height-input;
+  margin-bottom:15px ;
+   margin-right: 60px;
+  border: border-input;
+   background-color: rgba(204, 185, 185, 0.84);
+  border-radius: border-radius-input;
+  transform: translateX(-4%);
+}
+
+.label {
+  text-align: text-align-label;
+  margin: margin-label;
+   margin-left: 10px;
+   padding-left: 10px;
+  font-size: font-size-label;
+  font-weight: font-weight-label;
+}
+
+
+span.error {
+  color: red;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

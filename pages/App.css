@@ -1,0 +1,159 @@
+
+.post-card{
+    border-radius: 10px; /* Adjust the radius value to control the roundness of the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a visual effect */
+    padding: 20px;
+    border-color: #ffffff;
+    width:30%;
+    background-color: rgb(253, 253, 253);
+   
+  }
+  .selected-image{
+    width: 50%;
+    height: 10%;
+    border-radius: 8px;
+  }
+  .calendar-icon{
+    margin-left: 10px;
+  }
+  .location-icon{
+    margin-left: 10px;
+  }
+  .tweet-button {
+    background-color: #1d9bf0;
+    margin-left: 30px;
+    color: white;
+    border-radius: 9999px;
+    border-color:#000000c6;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px  #ffffff;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+   
+  .tweet-button:hover {
+    background-color: #1a8cd8;
+  }
+   
+  .tweet-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+   
+  .tweet-button:disabled:hover {
+    background-color: #1d9bf0;
+  }
+  .textarea {
+    width: 100%;
+    background-color: transparent;
+    outline-color: #ffffff;
+    border-color: #ffffff;
+    font-size: 20px;
+  }
+  .emoji-icon{
+    margin-left: 10px;;
+  }
+  
+  .register{
+    margin-top: -6px;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+  
+  }
+.register-container {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    /* margin-top: 10%; */
+    background-color:white;
+    font-family: "Roboto", sans-serif;
+    /* line-height: 1.9; */
+  /* border: 1px solid black;  */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
+  }
+  .form-container {
+    width: 50%;
+    height: 82%;
+    margin-bottom: 0px;
+    padding: 40px;
+     border:1px solid;
+    border-style: double;
+    border-color: #ec89a0;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .input-area{
+    width: 98%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: #efe5eed6;
+    border:none;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .input-label {
+    line-height: 1.2;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .input-field {
+    margin-left: -7px;
+    padding: 10px;
+  }
+  
+  span.error {
+    color: red;
+  }
+  
+  .register-btn {
+    border: none;
+    border-radius: 4px;
+    background-color:#ff3f6c;
+    color:white;
+    font-weight: bold;
+    margin-top:30px;
+    /* // padding: 0.75rem 1rem; */
+    padding: 0.9rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color:#df2752;
+    }
+  }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .p{
+    margin-top: 18px;
+    display: flex;
+    cursor: pointer;
+    justify-content:flex-start;
+  }
+  
+  .loginClick{
+  cursor: pointer;
+    color:#df2752;
+    margin-left: 5px;
+    &:hover {
+      color:#e15072;
+      text-decoration:underline;
+    }
+  }

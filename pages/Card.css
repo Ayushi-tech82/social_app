@@ -1,0 +1,54 @@
+.post-card{
+    border-radius: 10px; /* Adjust the radius value to control the roundness of the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a visual effect */
+    padding: 20px;
+    border-color: #ffffff;
+    width:30%;
+    background-color: rgb(253, 253, 253);
+   
+  }
+  .selected-image{
+    width: 100%;
+    border-radius: 8px;
+  }
+  .calendar-icon{
+    margin-left: 10px;
+  }
+  .location-icon{
+    margin-left: 10px;
+  }
+  .tweet-button {
+    background-color: #1d9bf0;
+    margin-left: 30px;
+    color: white;
+    border-radius: 9999px;
+    border-color:#000000c6;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px  #ffffff;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+   
+  .tweet-button:hover {
+    background-color: #1a8cd8;
+  }
+   
+  .tweet-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+   
+  .tweet-button:disabled:hover {
+    background-color: #1d9bf0;
+  }
+  .textarea {
+    width: 100%;
+    background-color: transparent;
+    outline-color: #ffffff;
+    border-color: #ffffff;
+    font-size: 20px;
+  }
+  .emoji-icon{
+    margin-left: 10px;;
+  }
